@@ -33,4 +33,4 @@ I was inspired by https://mathematica.stackexchange.com/questions/136974/code-th
 
 == Licence
 
-MIT (see the link:LICENCE[LICENCE] file)
+MIT (see the link:LICENSE[LICENSE] file)
