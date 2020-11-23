@@ -1,0 +1,26 @@
+= SVG mandalas generated in WASM
+
+== Build
+
+To build the project run the `make` command. Build output will be saved to `build` directory
+
+Use `make help` for build options
+
+== Run
+
+Run a local web server with:
+
+----
+$ make run
+----
+
+or
+
+----
+$ python3 serve.py
+----
+
+== Acknowledgments
+
+I was inspired by https://mathematica.stackexchange.com/questions/136974/code-that-generates-a-mandala[this] thread on stackexchange.
+
