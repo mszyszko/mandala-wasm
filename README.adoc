@@ -1,10 +1,17 @@
-= SVG mandalas generated in WASM
+= mandala-wasm
+
+Unique SVG mandalas procedurally generated in WebAssembly.
+
+image::images/manadala_c2gjogB1iye9AqgN.png[Example manadala]
+
+Resultant application can be accessed here:
+
 
 == Build
 
-To build the project run the `make` command. Build output will be saved to `build` directory
+To build the project run the `make` command. Build output will be saved to `build` directory.
 
-Use `make help` for build options
+Run `make help` for build options.
 
 == Run
 
@@ -24,3 +31,6 @@ $ python3 serve.py
 
 I was inspired by https://mathematica.stackexchange.com/questions/136974/code-that-generates-a-mandala[this] thread on stackexchange.
 
+== Licence
+
+MIT (see the link:LICENCE[LICENCE] file)
