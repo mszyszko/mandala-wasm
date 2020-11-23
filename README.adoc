@@ -4,7 +4,7 @@ Unique SVG mandalas procedurally generated in WebAssembly.
 
 image::images/manadala_c2gjogB1iye9AqgN.png[Example manadala]
 
-Resultant application can be accessed here:
+Demo application can be accessed https://mszyszko.com/projects/mandala-wasm/[here].
 
 
 == Build
