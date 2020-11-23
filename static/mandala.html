@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marcin Szyszko" />
+    <title>mandala-wasm</title>
+    <link type="text/css" rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <script type="module" src="mandala.js"></script>
+    <header>
+      <h1>Random SVG mandalas generated in WASM</h1>
+    </header>
+    <main>
+      <figure>
+        <div id="mandala" class="mandala"></div>
+      </figure>
+      <form>
+        <label id="seedLabel" for="seed">Seed</label>
+        <input id="seed" name="seed" type="text" placeholder="any string" />
+        <label id="colorLabel" for="color">Color</label>
+        <input id="color" name="color" type="color" value="#000000" />
+        <button type="button" id="download">Download</button>
+      </form>
+    </main>
+  </body>
+</html>

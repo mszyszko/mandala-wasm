@@ -1,0 +1,62 @@
+body {
+  background: #f3f3f3;
+}
+
+header,
+main,
+footer {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 4px;
+}
+
+header p {
+  margin-top: 4px;
+}
+
+figure {
+  margin: 16px;
+}
+
+form {
+  padding: 0 10%;
+}
+
+form label {
+  display: block;
+  text-align: left;
+}
+
+form input {
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  min-height: 32px;
+  width: 100%;
+}
+
+form button {
+  box-sizing: border-box;
+  height: 32px;
+  margin-top: 16px;
+}
+
+.mandalas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mandalas,
+.mandala {
+  min-height: 240px;
+}
+
+.mandalas svg,
+.mandala svg {
+  height: 240px;
+  width: 240px;
+}
